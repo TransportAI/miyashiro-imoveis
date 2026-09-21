@@ -11,6 +11,11 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
 
+  // Oculta a Navbar pública em todas as páginas de administração e login
+  if (pathname?.startsWith('/admin') || pathname === '/login') {
+    return null;
+  }
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);

@@ -8,7 +8,7 @@ import { Phone, Mail, MapPin, ShieldCheck, Clock, ArrowRight } from 'lucide-reac
 
 export default function Footer() {
   const pathname = usePathname();
-  if (pathname?.startsWith('/admin')) {
+  if (pathname?.startsWith('/admin') || pathname === '/login') {
     return null;
   }
 

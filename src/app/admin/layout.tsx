@@ -5,9 +5,9 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { 
-  LayoutDashboard, Building2, PlusCircle, Users, 
+  LayoutDashboard, Building2, PlusCircle, Users, Calculator, 
   ExternalLink, LogOut, ShieldCheck, ChevronRight, Menu, X, History, Bell,
-  UserCheck, Calculator
+  UserCheck
 } from 'lucide-react';
 import leadsData from '@/data/leads.json';
 import AdminMobileTabBar from '@/components/admin/AdminMobileTabBar';
@@ -17,6 +17,18 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   const [newLeadsCount, setNewLeadsCount] = useState<number>(0);
   const pathname = usePathname();
   const isLoginPage = pathname === '/admin/login';
+
+  const handleLogout = async () => {
+    try {
+      await fetch('/api/auth/logout', { method: 'POST' });
+    } catch (err) {
+      console.error('Erro ao efetuar logout:', err);
+    }
+    // Remove qualquer cookie localmente e redireciona limpando a sessão
+    document.cookie = 'gallo_session=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = 'miyashiro_session=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    window.location.href = '/login';
+  };
 
   useEffect(() => {
     const checkLeads = () => {
@@ -88,6 +100,16 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
           )}
 
           <button
+            type="button"
+            onClick={handleLogout}
+            className="p-2 rounded-lg bg-neutral-100 text-neutral-500 hover:text-rose-600 hover:bg-rose-50 transition"
+            title="Sair do Painel"
+            aria-label="Sair"
+          >
+            <LogOut className="w-4 h-4" />
+          </button>
+
+          <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 rounded-lg bg-neutral-100 text-neutral-600 hover:text-neutral-900 transition"
             aria-label="Abrir Menu Administrativo"
@@ -141,21 +163,21 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
                 <Link
                   key={item.name}
                   href={item.href}
-                  prefetch={true}
                   onClick={() => setMobileMenuOpen(false)}
-                  className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-medium transition-colors ${
+                  className={`flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium transition ${
                     isActive
-                      ? 'bg-neutral-100 text-neutral-900 font-semibold'
-                      : 'text-neutral-500 hover:text-neutral-900 hover:bg-neutral-50'
+                      ? 'bg-[#00873E] text-white shadow-xs'
+                      : 'text-neutral-600 hover:text-neutral-900 hover:bg-neutral-50'
                   }`}
                 >
-                  <div className="flex items-center gap-2.5 min-w-0">
-                    <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-[#00873E]' : 'text-neutral-400'}`} />
-                    <span className="truncate">{item.name}</span>
+                  <div className="flex items-center gap-2.5">
+                    <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-neutral-400'}`} />
+                    <span>{item.name}</span>
                   </div>
-
                   {isLeads && newLeadsCount > 0 && (
-                    <span className="bg-[#00873E]/10 text-[#00873E] text-[10px] font-mono font-medium px-1.5 py-0.5 rounded leading-none">
+                    <span className={`px-1.5 py-0.5 rounded-md text-[10px] font-mono font-bold ${
+                      isActive ? 'bg-white text-[#00873E]' : 'bg-[#00873E] text-white'
+                    }`}>
                       {newLeadsCount}
                     </span>
                   )}
@@ -178,13 +200,14 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             </span>
             <ChevronRight className="w-3 h-3 text-neutral-400" />
           </Link>
-          <Link
-            href="/admin/login"
-            className="flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs text-neutral-400 hover:text-rose-600 hover:bg-rose-50 transition"
+          <button
+            type="button"
+            onClick={handleLogout}
+            className="w-full flex items-center gap-2 px-3 py-1.5 rounded-lg text-xs text-neutral-400 hover:text-rose-600 hover:bg-rose-50 transition cursor-pointer text-left"
           >
             <LogOut className="w-3.5 h-3.5" />
-            <span>Sair</span>
-          </Link>
+            <span>Sair do Painel</span>
+          </button>
         </div>
       </aside>
 
