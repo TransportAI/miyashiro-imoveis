@@ -1,0 +1,57 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Rodrigo Mendonça",
+    "phone": "(19) 99876-1234",
+    "email": "rodrigo.mendonca@gmail.com",
+    "propertyId": "gal-101",
+    "message": "Gostaria de agendar uma visita para este sábado pela manhã na casa do Jardim São Dimas.",
+    "channel": "whatsapp",
+    "status": "novo",
+    "createdAt": "2026-03-09T14:20:00Z"
+  },
+  {
+    "id": "lead-002",
+    "name": "Dra. Patrícia Silveira",
+    "phone": "(19) 98122-4567",
+    "email": "patricia.silveira@uol.com.br",
+    "propertyId": "gal-103",
+    "message": "Tenho interesse no Edifício Imperial, gostaria de saber o valor exato do condomínio e se aceita financiamento.",
+    "channel": "formulario",
+    "status": "em_atendimento",
+    "createdAt": "2026-03-08T11:15:00Z"
+  },
+  {
+    "id": "lead-003",
+    "name": "Marcelo Fonseca",
+    "phone": "(11) 97543-8899",
+    "email": "marcelo.fonseca@sp.corp.com",
+    "propertyId": "gal-102",
+    "message": "Moro em SP e busco chácara em Amparo para lazer da família aos fins de semana. Essa chácara na Serra tem internet fibra?",
+    "channel": "whatsapp",
+    "status": "novo",
+    "createdAt": "2026-03-08T17:40:00Z"
+  },
+  {
+    "id": "lead-004",
+    "name": "Carlos Eduardo Bianchi",
+    "phone": "(19) 99234-9988",
+    "email": "carlos.bianchi@bianchiconstrutora.com.br",
+    "propertyId": "gal-106",
+    "message": "Interesse na locação do prédio comercial para abertura de nova clínica diagnóstica em Amparo.",
+    "channel": "telefone",
+    "status": "em_atendimento",
+    "createdAt": "2026-03-07T09:30:00Z"
+  },
+  {
+    "id": "lead-005",
+    "name": "Camila Guimarães",
+    "phone": "(19) 99111-2233",
+    "email": "camila.guimaraes@hotmail.com",
+    "propertyId": "gal-105",
+    "message": "Aluguel no Centro: gostaria de saber se aceita caução ou fiador e quando está liberado para mudança.",
+    "channel": "whatsapp",
+    "status": "concluido",
+    "createdAt": "2026-03-06T15:00:00Z"
+  }
+]

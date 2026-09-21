@@ -1,0 +1,515 @@
+[
+  {
+    "id": "gal-691",
+    "slug": "teste-3-3385",
+    "title": "teste 3",
+    "description": "testete tetetetete",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 500000,
+    "iptu": 1500,
+    "condoFee": 0,
+    "areaTotal": 1000,
+    "areaBuilt": 500,
+    "bedrooms": 1,
+    "suites": 2,
+    "bathrooms": 3,
+    "parkingSpots": 4,
+    "address": {
+      "street": "Comendador Guimarães",
+      "neighborhood": "Centro",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13900-000"
+    },
+    "images": [
+      "/images/properties/gal-691-img-0.jpg"
+    ],
+    "amenities": [
+      "Portão Eletrônico",
+      "Área de Lazer",
+      "Churrasqueira"
+    ],
+    "featured": true,
+    "status": "disponivel",
+    "createdAt": "2026-09-10T19:11:53.385Z",
+    "virtualTourRooms": [
+      {
+        "id": "room-1789135556669-682",
+        "name": "lado de fora",
+        "image": "/images/tours/tour-gal-691-room-0.jpg",
+        "isInitial": true
+      }
+    ]
+  },
+  {
+    "id": "gal-614",
+    "slug": "teste2-2641",
+    "title": "teste2",
+    "description": "test e eret etete tre",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 1250000,
+    "iptu": 0,
+    "condoFee": 0,
+    "areaTotal": 1500,
+    "areaBuilt": 1000,
+    "bedrooms": 1,
+    "suites": 2,
+    "bathrooms": 3,
+    "parkingSpots": 4,
+    "address": {
+      "street": "Rua suécia 130",
+      "neighborhood": "Jd Europa",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13900-000"
+    },
+    "images": [
+      "/images/properties/gal-614-img-0.jpg"
+    ],
+    "amenities": [
+      "Portão Eletrônico",
+      "Área de Lazer",
+      "Churrasqueira"
+    ],
+    "featured": true,
+    "status": "disponivel",
+    "createdAt": "2026-09-10T19:11:02.641Z"
+  },
+  {
+    "id": "gal-650",
+    "slug": "teste-7091",
+    "title": "teste",
+    "description": "teste teste",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 11111111,
+    "iptu": 0,
+    "condoFee": 0,
+    "areaTotal": 500,
+    "areaBuilt": 1000,
+    "bedrooms": 1,
+    "suites": 1,
+    "bathrooms": 1,
+    "parkingSpots": 1,
+    "address": {
+      "street": "Pedro Marigliani 99",
+      "neighborhood": "Jd São Lourenço",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13900-000"
+    },
+    "images": [
+      "/images/properties/gal-650-img-0.jpg"
+    ],
+    "amenities": [
+      "Portão Eletrônico",
+      "Área de Lazer",
+      "Churrasqueira"
+    ],
+    "featured": true,
+    "status": "disponivel",
+    "createdAt": "2026-09-10T19:09:27.091Z"
+  },
+  {
+    "id": "gal-101",
+    "slug": "casa-em-condominio-fechado-jardim-sao-dimas",
+    "title": "Casa de Alto Padrão em Condomínio Fechado",
+    "description": "Excelente residência em um dos condomínios mais nobres e seguros de Amparo. Com acabamento refinado em porcelanato e madeira nobre, esta casa oferece living integrado para 3 ambientes com pé direito duplo, cozinha gourmet com ilha central e armários planejados, 4 suítes espaçosas (sendo a master com closet e hidromassagem). Área externa privativa com piscina aquecida, deck molhado, espaço gourmet completo com churrasqueira e forno de pizza, além de paisagismo impecável. Aquecimento solar e energia fotovoltaica instalados.",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 1350000,
+    "iptu": 280,
+    "condoFee": 550,
+    "areaTotal": 480,
+    "areaBuilt": 320,
+    "bedrooms": 4,
+    "suites": 4,
+    "bathrooms": 5,
+    "parkingSpots": 4,
+    "address": {
+      "street": "Alameda dos Jacarandás, 140",
+      "neighborhood": "Jardim São Dimas",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13904-000",
+      "showExactAddress": false
+    },
+    "images": [
+      "/images/properties/casa_condominio_1.jpg",
+      "/images/properties/casa_condominio_2.jpg",
+      "/images/properties/casa_condominio_3.jpg",
+      "/images/properties/gallo_prop_1.jpg"
+    ],
+    "amenities": [
+      "Piscina Aquecida",
+      "Espaço Gourmet",
+      "Churrasqueira",
+      "Ar Condicionado",
+      "Energia Fotovoltaica",
+      "Armários Planejados",
+      "Portaria 24h",
+      "Jardim Privativo"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-01T10:00:00Z",
+    "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+    "virtualTourRooms": [
+      {
+        "id": "room-101-1",
+        "name": "Living & Sala de Estar",
+        "image": "/images/tours/sala_estar_360.jpg",
+        "isInitial": true,
+        "description": "Living amplo com acabamento em couro e lareira."
+      },
+      {
+        "id": "room-101-2",
+        "name": "Cozinha Gourmet Integrada",
+        "image": "/images/tours/cozinha_gourmet_360.jpg",
+        "description": "Cozinha contemporânea com conceito aberto e ilha."
+      },
+      {
+        "id": "room-101-3",
+        "name": "Suíte Master",
+        "image": "/images/tours/suite_master_360.jpg",
+        "description": "Suíte master elegante e espaçosa."
+      },
+      {
+        "id": "room-101-4",
+        "name": "Lounge Gourmet & Varanda",
+        "image": "/images/tours/varanda_lazer_360.jpg",
+        "description": "Espaço de lazer rústico e acolhedor."
+      }
+    ]
+  },
+  {
+    "id": "gal-102",
+    "slug": "chacara-panoramica-serra-de-amparo",
+    "title": "Chácara Panorâmica com Vista para as Montanhas",
+    "description": "Refúgio exclusivo e tranquilo com vista deslumbrante no circuito das águas paulistas. Terreno de 5.000m² totalmente aproveitado com ampla casa sede avarandada, sala com lareira rústica, 3 dormitórios sendo 1 suíte, cozinha com fogão a lenha e despensa. Amplo pomar formado com árvores frutíferas produtivas, campo de futebol privativo, piscina com borda infinita para o vale e poço artesiano com água mineral cristalina. Ideal para lazer em família ou pousada de charme.",
+    "purpose": "venda",
+    "type": "chacara",
+    "price": 890000,
+    "iptu": 150,
+    "condoFee": 0,
+    "areaTotal": 5000,
+    "areaBuilt": 280,
+    "bedrooms": 3,
+    "suites": 1,
+    "bathrooms": 3,
+    "parkingSpots": 6,
+    "address": {
+      "street": "Estrada Municipal das Palmeiras, km 4",
+      "neighborhood": "Serra de Amparo",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13908-000",
+      "showExactAddress": false
+    },
+    "images": [
+      "/images/properties/chacara_serra_1.jpg",
+      "/images/properties/chacara_serra_2.jpg",
+      "/images/properties/gallo_prop_2.jpg"
+    ],
+    "amenities": [
+      "Piscina com Vista Panorâmica",
+      "Lareira",
+      "Fogão a Lenha",
+      "Pomar Produtivo",
+      "Campo de Futebol",
+      "Poço Artesiano",
+      "Varanda 360°",
+      "Canil"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-03T11:30:00Z",
+    "virtualTourRooms": [
+      {
+        "id": "room-102-1",
+        "name": "Lounge Panorâmico",
+        "image": "/images/tours/varanda_lazer_360.jpg",
+        "isInitial": true,
+        "description": "Ambiente rústico aconchegante para reunir a família."
+      },
+      {
+        "id": "room-102-2",
+        "name": "Living & Sala Principal",
+        "image": "/images/tours/sala_estar_360.jpg",
+        "description": "Sala de estar ampla com vista e lareira."
+      },
+      {
+        "id": "room-102-3",
+        "name": "Suíte de Campo",
+        "image": "/images/tours/suite_master_360.jpg",
+        "description": "Dormitório amplo com iluminação natural."
+      }
+    ]
+  },
+  {
+    "id": "gal-103",
+    "slug": "apartamento-edificio-imperial-centro-amparo",
+    "title": "Apartamento Elegante no Coração de Amparo",
+    "description": "Conforto, sofisticação e a conveniência de fazer tudo a pé no Centro Histórico de Amparo. Amplo living em L para 2 ambientes com sacada e vista privilegiada da cidade, 3 dormitórios (1 suíte master com armários e ar-condicionado), banheiro social, cozinha planejada com bancada em granito, área de serviço arejada e dependência completa. Condomínio tradicional com elevadores privativos, portaria inteligente e 2 vagas demarcadas no subsolo.",
+    "purpose": "venda",
+    "type": "apartamento",
+    "price": 640000,
+    "iptu": 190,
+    "condoFee": 620,
+    "areaTotal": 165,
+    "areaBuilt": 125,
+    "bedrooms": 3,
+    "suites": 1,
+    "bathrooms": 3,
+    "parkingSpots": 2,
+    "address": {
+      "street": "Rua Treze de Maio, 250",
+      "neighborhood": "Centro",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13900-005",
+      "showExactAddress": true
+    },
+    "images": [
+      "/images/properties/apartamento_centro_1.jpg",
+      "/images/properties/apartamento_centro_2.jpg",
+      "/images/properties/gallo_prop_3.jpg"
+    ],
+    "amenities": [
+      "Elevador",
+      "Sacada com Vista Panorâmica",
+      "Portaria 24h",
+      "Salão de Festas",
+      "Armários Embutidos",
+      "2 Vagas Cobertas",
+      "Gás Encanado"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-05T09:15:00Z",
+    "videoUrl": "https://www.youtube.com/watch?v=LXb3EKWsInQ",
+    "virtualTourRooms": [
+      {
+        "id": "room-103-1",
+        "name": "Living & Home Theater",
+        "image": "/images/tours/sala_estar_360.jpg",
+        "isInitial": true,
+        "description": "Conforto e sofisticação no centro de Amparo."
+      },
+      {
+        "id": "room-103-2",
+        "name": "Cozinha Planejada",
+        "image": "/images/tours/cozinha_gourmet_360.jpg",
+        "description": "Acabamento moderno de alto padrão."
+      },
+      {
+        "id": "room-103-3",
+        "name": "Suíte do Apartamento",
+        "image": "/images/tours/suite_master_360.jpg",
+        "description": "Quarto espaçoso e silencioso."
+      }
+    ]
+  },
+  {
+    "id": "gal-104",
+    "slug": "casa-ampla-terrea-jardim-figueira",
+    "title": "Casa Térrea Moderna com Jardim e Área Gourmet",
+    "description": "Residência térrea impecável com excelente distribuição de espaços no Jardim Figueira. Com 3 quartos confortáveis, sendo 1 suíte espaçosa, sala de estar integrada à sala de jantar com iluminação em LED, cozinha americana moderna, e quintal gramado com espaço gourmet privativo. Localização privilegiada em bairro tranquilo, próximo a escolas, supermercados e vias de acesso rápido.",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 520000,
+    "iptu": 120,
+    "condoFee": 0,
+    "areaTotal": 300,
+    "areaBuilt": 175,
+    "bedrooms": 3,
+    "suites": 1,
+    "bathrooms": 2,
+    "parkingSpots": 2,
+    "address": {
+      "street": "Rua dos Ipês, 88",
+      "neighborhood": "Jardim Figueira",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13903-120",
+      "showExactAddress": false
+    },
+    "images": [
+      "/images/properties/casa_jardim_1.jpg",
+      "/images/properties/gallo_prop_4.jpg"
+    ],
+    "amenities": [
+      "Área Gourmet",
+      "Churrasqueira",
+      "Portão Eletrônico",
+      "Quintal Gramado",
+      "Iluminação LED",
+      "Cozinha Americana"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-06T14:20:00Z"
+  },
+  {
+    "id": "gal-105",
+    "slug": "apartamento-para-locacao-centro-amparo",
+    "title": "Apartamento Reformado e Mobiliado para Locação",
+    "description": "Excelente oportunidade para morar com praticidade no centro de Amparo. Apartamento reformado com piso laminado novo, 2 dormitórios com guarda-roupas, sala ampla para 2 ambientes, cozinha equipada com fogão e geladeira, área de serviço e 1 vaga de garagem coberta. Valor do aluguel já inclui condomínio e IPTU facilitados.",
+    "purpose": "aluguel",
+    "type": "apartamento",
+    "price": 2200,
+    "iptu": 95,
+    "condoFee": 380,
+    "areaTotal": 85,
+    "areaBuilt": 75,
+    "bedrooms": 2,
+    "suites": 0,
+    "bathrooms": 1,
+    "parkingSpots": 1,
+    "address": {
+      "street": "Avenida Bernardino de Campos, 310",
+      "neighborhood": "Centro",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13900-100",
+      "showExactAddress": true
+    },
+    "images": [
+      "/images/properties/apartamento_centro_2.jpg",
+      "/images/properties/apartamento_centro_1.jpg"
+    ],
+    "amenities": [
+      "Semi Mobiliado",
+      "Elevador",
+      "Interfone",
+      "Garagem Coberta",
+      "Armários na Cozinha"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-07T08:00:00Z"
+  },
+  {
+    "id": "gal-106",
+    "slug": "predio-comercial-avenida-principal-amparo",
+    "title": "Prédio Comercial em Ponto Nobre para Grandes Negócios",
+    "description": "Imóvel comercial estratégico na principal avenida de fluxo comercial de Amparo. Fachada imponente em vidro laminado com 15 metros de testada, salão térreo livre com 300m² em vão livre, mezanino corporativo com 4 salas de atendimento e diretoria, copa, 6 banheiros adaptados para acessibilidade e estacionamento frontal para 8 veículos. Perfeito para clínicas médicas, bancos, cooperativas, farmácias ou grandes franquias.",
+    "purpose": "aluguel",
+    "type": "comercial",
+    "price": 8500,
+    "iptu": 450,
+    "condoFee": 0,
+    "areaTotal": 650,
+    "areaBuilt": 480,
+    "bedrooms": 0,
+    "suites": 0,
+    "bathrooms": 6,
+    "parkingSpots": 8,
+    "address": {
+      "street": "Avenida Doutor Carlos Burgos, 1120",
+      "neighborhood": "Ribeirão",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13905-000",
+      "showExactAddress": true
+    },
+    "images": [
+      "/images/properties/comercial_amparo_1.jpg",
+      "/images/properties/gallo_prop_5.jpg"
+    ],
+    "amenities": [
+      "Acessibilidade PCD",
+      "Vão Livre 300m²",
+      "Estacionamento Próprio",
+      "Mezanino Corporativo",
+      "Ar Central",
+      "Copa",
+      "Ponto Estratégico"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-08T16:00:00Z"
+  },
+  {
+    "id": "gal-107",
+    "slug": "terreno-loteamento-fechado-reserva-dos-passaros",
+    "title": "Lote Residencial Plano em Condomínio Fechado de Alto Padrão",
+    "description": "Terreno plano de 600m² com topografia privilegiada em um dos loteamentos fechados mais desejados de Amparo. Localizado na parte alta do condomínio, garantindo vista permanente para a serra e excelente insolação norte. Condomínio com clube completo: quadra de tênis de saibro, piscina com raia, academia moderna, salão de eventos e segurança armada 24h.",
+    "purpose": "venda",
+    "type": "terreno",
+    "price": 340000,
+    "iptu": 80,
+    "condoFee": 390,
+    "areaTotal": 600,
+    "areaBuilt": 0,
+    "bedrooms": 0,
+    "suites": 0,
+    "bathrooms": 0,
+    "parkingSpots": 0,
+    "address": {
+      "street": "Alameda das Gaivotas, Lote 14",
+      "neighborhood": "Reserva dos Pássaros",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13904-450",
+      "showExactAddress": false
+    },
+    "images": [
+      "/images/properties/terreno_lote_1.jpg",
+      "/images/properties/casa_condominio_2.jpg"
+    ],
+    "amenities": [
+      "Topografia Plana",
+      "Vista Permanente",
+      "Segurança Armada 24h",
+      "Quadra de Tênis",
+      "Piscina com Raia",
+      "Academia",
+      "Fiação Subterrânea"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-08T17:30:00Z"
+  },
+  {
+    "id": "gal-108",
+    "slug": "casa-familiar-jardim-sao-cristovao",
+    "title": "Casa Confortável e Aconchegante no São Cristóvão",
+    "description": "Excelente residência familiar com quintal espaçoso e edícula nos fundos. A casa principal conta com 3 dormitórios, sala de estar com sanca de gesso, sala de jantar, cozinha com balcão e banheiro com box blindex. Garagem coberta para 2 veículos e espaço para ampliação ou futura área de lazer. Ótima vizinhança tranquila e segura.",
+    "purpose": "venda",
+    "type": "casa",
+    "price": 430000,
+    "iptu": 90,
+    "condoFee": 0,
+    "areaTotal": 250,
+    "areaBuilt": 140,
+    "bedrooms": 3,
+    "suites": 0,
+    "bathrooms": 2,
+    "parkingSpots": 2,
+    "address": {
+      "street": "Rua Santa Cecília, 215",
+      "neighborhood": "São Cristóvão",
+      "city": "Amparo",
+      "state": "SP",
+      "zipCode": "13902-150",
+      "showExactAddress": false
+    },
+    "images": [
+      "/images/properties/gallo_prop_1.jpg",
+      "/images/properties/casa_jardim_1.jpg"
+    ],
+    "amenities": [
+      "Edícula",
+      "Garagem Coberta",
+      "Quintal Amplo",
+      "Portão Automatizado",
+      "Lavanderia Fechada"
+    ],
+    "featured": false,
+    "status": "disponivel",
+    "createdAt": "2026-03-09T10:00:00Z"
+  }
+]

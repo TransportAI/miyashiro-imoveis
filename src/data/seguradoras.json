@@ -1,0 +1,42 @@
+[
+  {
+    "id": "porto-seguro",
+    "nome": "Porto Seguro Aluguel",
+    "portalUrl": "https://www.portoseguro.com.br/seguro-fianca-locaticia",
+    "tag": "Líder de Mercado",
+    "contatoSuporte": "0800 727 2765",
+    "notas": "Fiança tradicional e cartão de crédito, aprovação em poucas horas.",
+    "ordem": 1,
+    "isActive": true
+  },
+  {
+    "id": "credpago",
+    "nome": "CredPago (Loft Fiança)",
+    "portalUrl": "https://credpago.com.br/",
+    "tag": "100% Digital",
+    "contatoSuporte": "(11) 3003-8888",
+    "notas": "Análise instantânea via cartão de crédito sem comprovação de renda complexa.",
+    "ordem": 2,
+    "isActive": true
+  },
+  {
+    "id": "quinto-cred",
+    "nome": "QuintoCred",
+    "portalUrl": "https://quintocred.com.br/",
+    "tag": "Sem Fiador",
+    "contatoSuporte": "0800 000 0000",
+    "notas": "Garantia locatícia flexível integrada ao ecossistema digital.",
+    "ordem": 3,
+    "isActive": true
+  },
+  {
+    "id": "tokio-marine",
+    "nome": "Tokio Marine Aluguel",
+    "portalUrl": "https://www.tokiomarine.com.br/",
+    "tag": "Corporativo & Residencial",
+    "contatoSuporte": "0800 31 86546",
+    "notas": "Excelente para imóveis comerciais de grande porte em Amparo e região.",
+    "ordem": 4,
+    "isActive": true
+  }
+]
