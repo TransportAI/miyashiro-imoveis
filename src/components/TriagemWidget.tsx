@@ -315,7 +315,7 @@ export default function TriagemWidget() {
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: 15 }}
             transition={{ duration: 0.25, ease: 'easeOut' }}
-            className={`fixed ${hasComparison ? 'bottom-[164px]' : 'bottom-[88px]'} sm:bottom-[88px] right-3 sm:right-6 ${
+            className={`fixed ${hasComparison ? 'bottom-44 md:bottom-[164px]' : 'bottom-24 md:bottom-[88px]'} right-3 sm:right-6 ${
               isWhatsAppModalOpen ? 'z-20 pointer-events-none' : 'z-40 pointer-events-auto'
             } flex items-center transition-all duration-300`}
           >

@@ -323,12 +323,12 @@ export default function HomeInteractiveView({ initialProperties }: HomeInteracti
               <div className="pt-2 flex flex-wrap gap-4">
                 <Link
                   href="/anunciar"
-                  className="bg-[#00873E] hover:bg-[#15803d] text-white font-mono font-semibold text-xs px-6 py-3 rounded-full transition shadow-md shadow-red-950/30"
+                  className="bg-[#00873E] hover:bg-[#15803d] text-white font-mono font-semibold text-xs px-6 py-3 rounded-full transition shadow-md shadow-emerald-950/30"
                 >
                   Cadastrar Meu Imóvel
                 </Link>
                 <a
-                  href="https://wa.me/5519993673949?text=Ol%C3%A1%2C%20quero%20anunciar%20meu%20im%C3%B3vel%20com%20a%20Gallo%20Im%C3%B3veis."
+                  href="https://wa.me/5519993673949?text=Ol%C3%A1%2C%20quero%20anunciar%20meu%20im%C3%B3vel%20com%20a%20Miyashiro%20Im%C3%B3veis."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-6 py-3 rounded-full text-xs font-mono transition flex items-center gap-2"

@@ -33,7 +33,7 @@ export default function BoardingPassModal({ property, isOpen, onClose }: Boardin
 
   if (!property) return null;
 
-  const code = property.id.toUpperCase().replace('PRI-', 'GAL-');
+  const code = property.id.toUpperCase().replace(/^(PRI|GAL)-/i, 'MIY-');
   const encodedMsg = encodeURIComponent(
     `Olá, Miyashiro Imóveis! Estou com a Ficha Técnica / Boarding Pass do imóvel ${property.title} (Cód: ${code}) no valor de ${formatCurrency(property.price)} em Amparo. Gostaria de tirar dúvidas e agendar uma visita.`
   );

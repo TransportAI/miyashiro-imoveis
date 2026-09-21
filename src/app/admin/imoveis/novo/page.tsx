@@ -122,7 +122,7 @@ export default function AdminNovoImovelPage() {
       .trim()
       .replace(/\s+/g, '-');
 
-    const propertyId = `gal-${Math.floor(100 + Math.random() * 900)}`;
+    const propertyId = `miy-${Math.floor(100 + Math.random() * 900)}`;
 
     // Order images so cover is first
     const orderedImages = coverImage

@@ -19,7 +19,7 @@ export default function PropertyCard({ property, onSavedChange, onOpenBoardingPa
   const [boardingPassOpen, setBoardingPassOpen] = useState(false);
   const [isSaved, setIsSaved] = useState(false);
 
-  const displayCode = property.id.toUpperCase().replace('PRI-', 'GAL-');
+  const displayCode = property.id.toUpperCase().replace(/^(PRI|GAL)-/i, 'MIY-');
 
   useEffect(() => {
     try {

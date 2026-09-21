@@ -192,8 +192,8 @@ export default function InteractiveMap({ properties, onOpenBoardingPass }: Inter
             className="absolute bottom-6 right-6 left-6 sm:left-auto sm:w-96 z-30 bg-[#0F172A]/95 backdrop-blur-xl border border-[#00873E]/40 rounded-2xl shadow-2xl p-4 text-slate-100"
           >
             <div className="flex items-start justify-between gap-2 mb-2">
-              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-rose-950 border border-[#00873E]/40 text-[#FF7A59] uppercase font-semibold">
-                {selectedProperty.id.toUpperCase().replace('PRI-', 'GAL-')} • {selectedProperty.address.neighborhood || 'Amparo'}
+              <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-emerald-950 border border-[#00873E]/40 text-emerald-400 uppercase font-semibold">
+                {selectedProperty.id.toUpperCase().replace(/^(PRI|GAL)-/i, 'MIY-')} • {selectedProperty.address.neighborhood || 'Amparo'}
               </span>
               <button
                 onClick={() => setSelectedProperty(null)}

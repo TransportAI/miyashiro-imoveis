@@ -1,6 +1,6 @@
 [
   {
-    "id": "gal-691",
+    "id": "miy-691",
     "slug": "teste-3-3385",
     "title": "teste 3",
     "description": "testete tetetetete",
@@ -23,7 +23,7 @@
       "zipCode": "13900-000"
     },
     "images": [
-      "/images/properties/gal-691-img-0.jpg"
+      "/images/properties/miy-691-img-0.jpg"
     ],
     "amenities": [
       "Portão Eletrônico",
@@ -37,13 +37,13 @@
       {
         "id": "room-1789135556669-682",
         "name": "lado de fora",
-        "image": "/images/tours/tour-gal-691-room-0.jpg",
+        "image": "/images/tours/tour-miy-691-room-0.jpg",
         "isInitial": true
       }
     ]
   },
   {
-    "id": "gal-614",
+    "id": "miy-614",
     "slug": "teste2-2641",
     "title": "teste2",
     "description": "test e eret etete tre",
@@ -66,7 +66,7 @@
       "zipCode": "13900-000"
     },
     "images": [
-      "/images/properties/gal-614-img-0.jpg"
+      "/images/properties/miy-614-img-0.jpg"
     ],
     "amenities": [
       "Portão Eletrônico",
@@ -78,7 +78,7 @@
     "createdAt": "2026-09-10T19:11:02.641Z"
   },
   {
-    "id": "gal-650",
+    "id": "miy-650",
     "slug": "teste-7091",
     "title": "teste",
     "description": "teste teste",
@@ -101,7 +101,7 @@
       "zipCode": "13900-000"
     },
     "images": [
-      "/images/properties/gal-650-img-0.jpg"
+      "/images/properties/miy-650-img-0.jpg"
     ],
     "amenities": [
       "Portão Eletrônico",
@@ -113,7 +113,7 @@
     "createdAt": "2026-09-10T19:09:27.091Z"
   },
   {
-    "id": "gal-101",
+    "id": "miy-101",
     "slug": "casa-em-condominio-fechado-jardim-sao-dimas",
     "title": "Casa de Alto Padrão em Condomínio Fechado",
     "description": "Excelente residência em um dos condomínios mais nobres e seguros de Amparo. Com acabamento refinado em porcelanato e madeira nobre, esta casa oferece living integrado para 3 ambientes com pé direito duplo, cozinha gourmet com ilha central e armários planejados, 4 suítes espaçosas (sendo a master com closet e hidromassagem). Área externa privativa com piscina aquecida, deck molhado, espaço gourmet completo com churrasqueira e forno de pizza, além de paisagismo impecável. Aquecimento solar e energia fotovoltaica instalados.",
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "id": "gal-102",
+    "id": "miy-102",
     "slug": "chacara-panoramica-serra-de-amparo",
     "title": "Chácara Panorâmica com Vista para as Montanhas",
     "description": "Refúgio exclusivo e tranquilo com vista deslumbrante no circuito das águas paulistas. Terreno de 5.000m² totalmente aproveitado com ampla casa sede avarandada, sala com lareira rústica, 3 dormitórios sendo 1 suíte, cozinha com fogão a lenha e despensa. Amplo pomar formado com árvores frutíferas produtivas, campo de futebol privativo, piscina com borda infinita para o vale e poço artesiano com água mineral cristalina. Ideal para lazer em família ou pousada de charme.",
@@ -249,7 +249,7 @@
     ]
   },
   {
-    "id": "gal-103",
+    "id": "miy-103",
     "slug": "apartamento-edificio-imperial-centro-amparo",
     "title": "Apartamento Elegante no Coração de Amparo",
     "description": "Conforto, sofisticação e a conveniência de fazer tudo a pé no Centro Histórico de Amparo. Amplo living em L para 2 ambientes com sacada e vista privilegiada da cidade, 3 dormitórios (1 suíte master com armários e ar-condicionado), banheiro social, cozinha planejada com bancada em granito, área de serviço arejada e dependência completa. Condomínio tradicional com elevadores privativos, portaria inteligente e 2 vagas demarcadas no subsolo.",
@@ -313,7 +313,7 @@
     ]
   },
   {
-    "id": "gal-104",
+    "id": "miy-104",
     "slug": "casa-ampla-terrea-jardim-figueira",
     "title": "Casa Térrea Moderna com Jardim e Área Gourmet",
     "description": "Residência térrea impecável com excelente distribuição de espaços no Jardim Figueira. Com 3 quartos confortáveis, sendo 1 suíte espaçosa, sala de estar integrada à sala de jantar com iluminação em LED, cozinha americana moderna, e quintal gramado com espaço gourmet privativo. Localização privilegiada em bairro tranquilo, próximo a escolas, supermercados e vias de acesso rápido.",
@@ -353,7 +353,7 @@
     "createdAt": "2026-03-06T14:20:00Z"
   },
   {
-    "id": "gal-105",
+    "id": "miy-105",
     "slug": "apartamento-para-locacao-centro-amparo",
     "title": "Apartamento Reformado e Mobiliado para Locação",
     "description": "Excelente oportunidade para morar com praticidade no centro de Amparo. Apartamento reformado com piso laminado novo, 2 dormitórios com guarda-roupas, sala ampla para 2 ambientes, cozinha equipada com fogão e geladeira, área de serviço e 1 vaga de garagem coberta. Valor do aluguel já inclui condomínio e IPTU facilitados.",
@@ -392,7 +392,7 @@
     "createdAt": "2026-03-07T08:00:00Z"
   },
   {
-    "id": "gal-106",
+    "id": "miy-106",
     "slug": "predio-comercial-avenida-principal-amparo",
     "title": "Prédio Comercial em Ponto Nobre para Grandes Negócios",
     "description": "Imóvel comercial estratégico na principal avenida de fluxo comercial de Amparo. Fachada imponente em vidro laminado com 15 metros de testada, salão térreo livre com 300m² em vão livre, mezanino corporativo com 4 salas de atendimento e diretoria, copa, 6 banheiros adaptados para acessibilidade e estacionamento frontal para 8 veículos. Perfeito para clínicas médicas, bancos, cooperativas, farmácias ou grandes franquias.",
@@ -433,7 +433,7 @@
     "createdAt": "2026-03-08T16:00:00Z"
   },
   {
-    "id": "gal-107",
+    "id": "miy-107",
     "slug": "terreno-loteamento-fechado-reserva-dos-passaros",
     "title": "Lote Residencial Plano em Condomínio Fechado de Alto Padrão",
     "description": "Terreno plano de 600m² com topografia privilegiada em um dos loteamentos fechados mais desejados de Amparo. Localizado na parte alta do condomínio, garantindo vista permanente para a serra e excelente insolação norte. Condomínio com clube completo: quadra de tênis de saibro, piscina com raia, academia moderna, salão de eventos e segurança armada 24h.",
@@ -474,7 +474,7 @@
     "createdAt": "2026-03-08T17:30:00Z"
   },
   {
-    "id": "gal-108",
+    "id": "miy-108",
     "slug": "casa-familiar-jardim-sao-cristovao",
     "title": "Casa Confortável e Aconchegante no São Cristóvão",
     "description": "Excelente residência familiar com quintal espaçoso e edícula nos fundos. A casa principal conta com 3 dormitórios, sala de estar com sanca de gesso, sala de jantar, cozinha com balcão e banheiro com box blindex. Garagem coberta para 2 veículos e espaço para ampliação ou futura área de lazer. Ótima vizinhança tranquila e segura.",
