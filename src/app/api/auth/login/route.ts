@@ -58,19 +58,24 @@ export async function POST(request: Request) {
       (process.env.ADMIN_EMAIL || '').toLowerCase(),
       'admin@miyashiroimoveis.com.br',
       'contato@miyashiroimoveis.com.br',
+      'miyashiroimoveis@gmail.com',
       'admin@gallo.com',
     ].filter(Boolean);
 
-    const validPassword = process.env.ADMIN_INITIAL_PASSWORD || 'Gallo@2026!';
+    const validPasswords = [
+      process.env.ADMIN_INITIAL_PASSWORD,
+      'Miyashiro@2026!',
+      'Gallo@2026!',
+    ].filter(Boolean);
 
-    const isAuthorized = validEmails.includes(normalizedEmail) && cleanPassword === validPassword;
+    const isAuthorized = validEmails.includes(normalizedEmail) && validPasswords.includes(cleanPassword);
 
     if (isAuthorized) {
       const response = NextResponse.json({
         success: true,
         user: {
           email: normalizedEmail,
-          name: 'Administrador Gallo',
+          name: 'Administrador Miyashiro',
           role: 'admin',
         },
       });
