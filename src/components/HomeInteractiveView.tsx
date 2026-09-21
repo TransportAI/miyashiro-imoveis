@@ -124,20 +124,20 @@ export default function HomeInteractiveView({ initialProperties }: HomeInteracti
             {/* Trust Stats Bar Translúcida */}
             <div className="mt-14 pt-8 border-t border-stone-300/60 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 text-center max-w-4xl mx-auto font-mono">
               <div className="p-4 rounded-2xl bg-white/80 backdrop-blur-md border border-stone-200/80 shadow-xs flex flex-col items-center justify-center">
-                <p className="text-2xl sm:text-3xl font-urbanist font-semibold text-[#00873E] leading-tight">+10 Anos</p>
-                <p className="text-xs text-stone-500 mt-1 font-medium">Tradição em Amparo / SP</p>
+                <p className="text-xl sm:text-2xl font-urbanist font-semibold text-[#00873E] leading-tight">CRECI 155957-F</p>
+                <p className="text-xs text-stone-500 mt-1 font-medium">Corretagem Credenciada</p>
               </div>
               <div className="p-4 rounded-2xl bg-white/80 backdrop-blur-md border border-stone-200/80 shadow-xs flex flex-col items-center justify-center">
-                <p className="text-2xl sm:text-3xl font-urbanist font-semibold text-[#00873E] leading-tight">CRECI 155957F</p>
-                <p className="text-xs text-stone-500 mt-1 font-medium">Vistoria & Jurídico Seguro</p>
+                <p className="text-xl sm:text-2xl font-urbanist font-semibold text-[#00873E] leading-tight">Sede Central</p>
+                <p className="text-xs text-stone-500 mt-1 font-medium">Rua Ana Cintra, 246</p>
               </div>
               <div className="p-4 rounded-2xl bg-white/80 backdrop-blur-md border border-stone-200/80 shadow-xs flex flex-col items-center justify-center">
-                <p className="text-2xl sm:text-3xl font-urbanist font-semibold text-[#00873E] leading-tight">2 Unidades</p>
-                <p className="text-xs text-stone-500 mt-1 font-medium">Ribeirão & Centro</p>
+                <p className="text-xl sm:text-2xl font-urbanist font-semibold text-[#00873E] leading-tight">Vendas & Locações</p>
+                <p className="text-xs text-stone-500 mt-1 font-medium">Urbano, Comercial & Rural</p>
               </div>
               <div className="p-4 rounded-2xl bg-white/80 backdrop-blur-md border border-stone-200/80 shadow-xs flex flex-col items-center justify-center">
-                <p className="text-2xl sm:text-3xl font-urbanist font-semibold text-[#00873E] leading-tight">+1000</p>
-                <p className="text-xs text-stone-500 mt-1 font-medium">Clientes Atendidos</p>
+                <p className="text-xl sm:text-2xl font-urbanist font-semibold text-[#00873E] leading-tight">Amparo e Região</p>
+                <p className="text-xs text-stone-500 mt-1 font-medium">Circuito das Águas Paulista</p>
               </div>
             </div>
           </div>
@@ -368,7 +368,7 @@ export default function HomeInteractiveView({ initialProperties }: HomeInteracti
               </div>
               <h3 className="text-lg font-urbanist font-semibold text-stone-900">Domínio do Mercado de Amparo</h3>
               <p className="text-stone-600 text-xs leading-relaxed font-light">
-                Mais de uma década com duas unidades de atendimento estratégico (Ribeirão e Centro), acompanhando o valor de cada metro quadrado da região.
+                Atendimento presencial no Centro de Amparo (Rua Ana Cintra, 246), com profundo conhecimento em cada bairro, condomínio e zona rural da região.
               </p>
             </div>
 

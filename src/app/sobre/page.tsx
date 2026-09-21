@@ -11,7 +11,7 @@ export default function SobrePage() {
       <div className="text-center max-w-3xl mx-auto space-y-3">
         <span className="text-xs font-medium uppercase tracking-wider text-gallo-700">Nossa Trajetória</span>
         <h1 className="text-3xl sm:text-4xl font-medium text-stone-900 font-urbanist">
-          Mais de 25 anos conectando famílias e negócios ao coração de Amparo
+          Credibilidade, segurança e tradição conectando você ao imóvel ideal em Amparo
         </h1>
         <p className="text-stone-600 text-sm sm:text-base font-light">
           A Miyashiro Imóveis nasceu com o compromisso de unir a tradicional cordialidade do interior paulista ao rigor técnico e segurança jurídica imobiliária.
@@ -64,11 +64,11 @@ export default function SobrePage() {
           <div className="space-y-2 pt-2 text-xs text-stone-700">
             <p className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-gallo-700" />
-              Rua Ana Cintra, 246 - Centro, Amparo - SP, CEP 13900-011
+              Rua Ana Cintra, 246 - Centro, Amparo - SP, CEP 13900-005
             </p>
             <p className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-gallo-700" />
-              (19) 99609-5119 / (19) 99609-4312 / WhatsApp: (19) 99367-3949
+              Fixo: (19) 3808-5638 • (19) 99609-5119 / (19) 99609-4312 • WhatsApp: (19) 99367-3949
             </p>
             <p className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-gallo-700" />

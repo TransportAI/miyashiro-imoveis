@@ -69,8 +69,8 @@ export default function ContatoPage() {
           <div className="bg-white p-6 rounded-2xl border border-stone-200/80 shadow-xs space-y-2">
             <Phone className="w-5 h-5 text-gallo-700" />
             <h3 className="text-sm font-medium text-stone-900 font-urbanist">Telefones de Atendimento</h3>
-            <p className="text-xs text-stone-600">(19) 99609-5119</p>
-            <p className="text-xs text-stone-600">(19) 99609-4312</p>
+            <p className="text-xs text-stone-600">Fixo: (19) 3808-5638</p>
+            <p className="text-xs text-stone-600">(19) 99609-5119 / (19) 99609-4312</p>
           </div>
 
           <div className="bg-white p-6 rounded-2xl border border-stone-200/80 shadow-xs space-y-2">
@@ -92,7 +92,7 @@ export default function ContatoPage() {
             <h3 className="text-sm font-medium text-stone-900 font-urbanist">Localização</h3>
             <p className="text-xs text-stone-600 leading-relaxed">
               Rua Ana Cintra, 246 - Centro<br />
-              Amparo - SP, CEP 13900-011
+              Amparo - SP, CEP 13900-005
             </p>
           </div>
 

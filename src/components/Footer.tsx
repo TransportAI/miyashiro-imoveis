@@ -76,11 +76,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-stone-400 font-light">
               <li className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-emerald-400 shrink-0 mt-0.5" />
-                <span>Rua Ana Cintra, 246 - Centro, Amparo - SP, CEP 13900-011</span>
+                <span>Rua Ana Cintra, 246 - Centro, Amparo - SP, CEP 13900-005</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>(19) 99367-3949 / (19) 99609-5119</span>
+                <span>(19) 3808-5638 • (19) 99367-3949</span>
               </li>
               <li className="flex items-center gap-2.5">
                 <Mail className="w-4 h-4 text-emerald-400 shrink-0" />
