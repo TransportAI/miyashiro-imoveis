@@ -8,7 +8,7 @@ import { ArrowRight, Check, X, RotateCcw, MessageCircle, Home, Sparkles, User, P
 
 const Lottie = dynamic(() => import('lottie-react').then((mod) => mod.Lottie), { ssr: false });
 
-import lottieQuestionsData from '../../public/animations/red-ask.json';
+import lottieQuestionsData from '../../public/animations/iOWVbr6LDH.json';
 
 interface TriagemState {
   finalidade: 'venda' | 'aluguel' | null;
@@ -328,7 +328,7 @@ export default function TriagemWidget() {
               <div className="relative flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-[#00873E]/10 text-[#00873E]">
                 <Lottie
                   src={lottieQuestionsData as any}
-                  loop={false}
+                  loop={true}
                   autoplay={true}
                   className="h-7 w-7"
                 />
@@ -383,7 +383,7 @@ export default function TriagemWidget() {
                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-[#00873E]/10 text-[#00873E]">
                   <Lottie
                     src={lottieQuestionsData as any}
-                    loop={false}
+                    loop={true}
                     autoplay={true}
                     className="h-14 w-14"
                   />

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "ctr-001",
+    "code": "CTR-2026-0001",
+    "propertyId": "gal-691",
+    "propertyTitle": "Casa com Área de Lazer e Espaço Gourmet",
+    "propertyAddress": "Rua Comendador Guimarães, 120, Centro - Amparo/SP",
+    "propertyCoverImage": "/images/properties/gal-691-img-0.jpg",
+    "modalidade": "locacao_seguro_fianca",
+    "type": "locacao_seguro_fianca",
+    "status": "vigente",
+    "startDate": "2026-01-15",
+    "endDate": "2029-01-15",
+    "renewalAuto": true,
+    "financial": {
+      "monthlyRent": 2800,
+      "paymentDay": 10,
+      "readjustmentIndex": "IPCA",
+      "taxaAdministracaoPercentual": 10,
+      "condoFeeIncluded": false,
+      "iptuIncluded": true,
+      "guaranteeType": "seguro_fianca",
+      "seguroFiancaDetails": {
+        "seguradoraNome": "Porto Seguro Fiança Locatícia",
+        "numeroApolice": "AP-99882-2026",
+        "statusApolice": "Vigente / Aprovada",
+        "valorPremioMensal": 224,
+        "coberturaDanosImovel": true,
+        "contatoSinistro": "0800 727 2727"
+      }
+    },
+    "parties": [
+      {
+        "role": "locador",
+        "name": "Carlos Eduardo Silveira",
+        "email": "carlos.silveira@email.com",
+        "phone": "(19) 99821-4455",
+        "documentNumber": "214.887.652-30"
+      },
+      {
+        "role": "locatario",
+        "name": "Beatriz Mendonça Rocha",
+        "email": "beatriz.mendonca@gmail.com",
+        "phone": "(19) 98712-3399",
+        "documentNumber": "358.147.963-04"
+      },
+      {
+        "role": "corretor",
+        "name": "Equipe Miyashiro",
+        "email": "contato@miyashiroimoveis.com.br",
+        "phone": "(19) 3807-6744",
+        "documentNumber": "CRECI 155957F"
+      }
+    ],
+    "files": [
+      {
+        "id": "f-01",
+        "name": "Contrato_Locacao_Residencial_Assinado.pdf",
+        "fileType": "pdf",
+        "fileSize": "1.8 MB",
+        "category": "contrato",
+        "uploadedAt": "2026-01-15T14:30:00Z",
+        "url": "/documents/contrato_locacao_assinado.pdf"
+      },
+      {
+        "id": "f-02",
+        "name": "Minuta_Contrato_Original_Aprovada.docx",
+        "fileType": "docx",
+        "fileSize": "340 KB",
+        "category": "minuta",
+        "uploadedAt": "2026-01-12T10:15:00Z",
+        "url": ""
+      },
+      {
+        "id": "f-03",
+        "name": "Apolice_Seguro_Fianca_Porto.pdf",
+        "fileType": "pdf",
+        "fileSize": "920 KB",
+        "category": "apolice_seguro",
+        "uploadedAt": "2026-01-14T11:00:00Z",
+        "url": ""
+      }
+    ],
+    "notes": "Locação com garantia Seguro Fiança aprovada pela Porto Seguro.",
+    "createdAt": "2026-01-10T09:00:00Z",
+    "updatedAt": "2026-01-15T14:30:00Z"
+  },
+  {
+    "id": "ctr-002",
+    "code": "CTR-2026-0002",
+    "propertyId": "gal-614",
+    "propertyTitle": "Residência de Alto Padrão em Amparo",
+    "propertyAddress": "Av. Independência, 450, Jardim São Bento - Amparo/SP",
+    "propertyCoverImage": "/images/properties/gal-691-img-0.jpg",
+    "modalidade": "venda_compra",
+    "type": "venda_compra",
+    "status": "vigente",
+    "startDate": "2026-02-01",
+    "endDate": "2026-06-01",
+    "renewalAuto": false,
+    "financial": {
+      "totalSaleValue": 1250000,
+      "sinalEntrada": 250000,
+      "saldoFinanciamento": 1000000,
+      "bancoFinanciamento": "Caixa Econômica Federal",
+      "guaranteeType": "sem_garantia"
+    },
+    "parties": [
+      {
+        "role": "vendedor",
+        "name": "Marcelo Vieira de Paula",
+        "email": "marcelo.vieira@empresa.com.br",
+        "phone": "(19) 99182-7722",
+        "documentNumber": "147.258.369-12"
+      },
+      {
+        "role": "comprador",
+        "name": "Juliana Castro Alencar",
+        "email": "juliana.castro@gmail.com",
+        "phone": "(19) 98112-9900",
+        "documentNumber": "963.852.741-55"
+      },
+      {
+        "role": "corretor",
+        "name": "S. Miyashiro",
+        "email": "contato@miyashiroimoveis.com.br",
+        "phone": "(19) 99824-3434",
+        "documentNumber": "CRECI 155957F"
+      }
+    ],
+    "files": [
+      {
+        "id": "f-04",
+        "name": "Instrumento_Particular_Compra_Venda.docx",
+        "fileType": "docx",
+        "fileSize": "420 KB",
+        "category": "minuta",
+        "uploadedAt": "2026-02-01T10:00:00Z",
+        "url": ""
+      },
+      {
+        "id": "f-05",
+        "name": "Comprovante_Transferencia_Sinal.png",
+        "fileType": "png",
+        "fileSize": "310 KB",
+        "category": "comprovante",
+        "uploadedAt": "2026-02-02T15:20:00Z",
+        "url": ""
+      }
+    ],
+    "notes": "Compra e venda com sinal depositado. Aguardando liberação do financiamento habitacional.",
+    "createdAt": "2026-02-01T08:30:00Z",
+    "updatedAt": "2026-02-02T15:20:00Z"
+  },
+  {
+    "id": "ctr-003",
+    "code": "CTR-2026-0003",
+    "propertyId": "gal-691",
+    "propertyTitle": "Compromisso de Permuta Imobiliária",
+    "propertyAddress": "Rua Comendador Guimarães, 120, Centro - Amparo/SP",
+    "propertyCoverImage": "/images/properties/gal-691-img-0.jpg",
+    "modalidade": "permuta_imobiliaria",
+    "type": "permuta_imobiliaria",
+    "status": "em_revisao",
+    "startDate": "2026-03-01",
+    "endDate": "2026-07-01",
+    "renewalAuto": false,
+    "financial": {
+      "permutaDetails": {
+        "imovelSegundoDescricao": "Apartamento 3 dormitórios no Centro de Serra Negra/SP",
+        "valorImovel1": 500000,
+        "valorImovel2": 450000,
+        "possuiTorna": true,
+        "valorTorna": 50000,
+        "pagadorTorna": "permutante_2",
+        "condicoesTorna": "Pagamento à vista na assinatura da escritura pública definitiva."
+      },
+      "guaranteeType": "sem_garantia"
+    },
+    "parties": [
+      {
+        "role": "permutante_1",
+        "name": "Renata Guimarães Fonseca",
+        "email": "renata.guimaraes@uol.com.br",
+        "phone": "(19) 99341-8899",
+        "documentNumber": "112.334.556-77"
+      },
+      {
+        "role": "permutante_2",
+        "name": "Fábio Henrique Diniz",
+        "email": "fabio.diniz@outlook.com",
+        "phone": "(19) 98877-2211",
+        "documentNumber": "887.665.443-21"
+      },
+      {
+        "role": "corretor",
+        "name": "Equipe Miyashiro",
+        "email": "contato@miyashiroimoveis.com.br",
+        "phone": "(19) 3807-6744",
+        "documentNumber": "CRECI 155957F"
+      }
+    ],
+    "files": [
+      {
+        "id": "f-06",
+        "name": "Minuta_Contrato_Permuta_com_Torna.docx",
+        "fileType": "docx",
+        "fileSize": "395 KB",
+        "category": "minuta",
+        "uploadedAt": "2026-03-01T14:10:00Z",
+        "url": ""
+      }
+    ],
+    "notes": "Permuta com torna de R$ 50.000,00 a ser liquidada pelo segundo permutante.",
+    "createdAt": "2026-03-01T10:00:00Z",
+    "updatedAt": "2026-03-01T14:10:00Z"
+  }
+]

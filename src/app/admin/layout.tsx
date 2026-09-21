@@ -7,7 +7,7 @@ import { usePathname } from 'next/navigation';
 import { 
   LayoutDashboard, Building2, PlusCircle, Users, Calculator, 
   ExternalLink, LogOut, ShieldCheck, ChevronRight, Menu, X, History, Bell,
-  UserCheck
+  UserCheck, FileText
 } from 'lucide-react';
 import leadsData from '@/data/leads.json';
 import AdminMobileTabBar from '@/components/admin/AdminMobileTabBar';
@@ -62,6 +62,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
     { name: 'Imóveis', href: '/admin/imoveis', icon: Building2 },
     { name: 'Novo Imóvel', href: '/admin/imoveis/novo', icon: PlusCircle },
     { name: 'Leads & CRM', href: '/admin/leads', icon: Users },
+    { name: 'Contratos', href: '/admin/contratos', icon: FileText },
     { name: 'Corretores', href: '/admin/corretores', icon: UserCheck },
     { name: 'Financiamento', href: '/admin/financiamento', icon: Calculator },
     { name: 'Seguradoras', href: '/admin/seguradoras', icon: ShieldCheck },
