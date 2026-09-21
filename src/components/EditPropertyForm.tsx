@@ -172,7 +172,7 @@ export default function EditPropertyForm({ initialProperty }: EditPropertyFormPr
         `Imóvel Atualizado (${initialProperty.id.toUpperCase()})`,
         `${title} - R$ ${Number(parsePriceMask(price)).toLocaleString('pt-BR')} (Status: ${status})`,
         'imovel',
-        'Administrador Gallo'
+        'Administrador Miyashiro'
       );
     } catch (err) {
       console.error(err);

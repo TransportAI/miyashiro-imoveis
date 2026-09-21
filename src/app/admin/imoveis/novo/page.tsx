@@ -188,7 +188,7 @@ export default function AdminNovoImovelPage() {
         `Imóvel Cadastrado (${propertyId.toUpperCase()})`,
         `${title} - R$ ${numericPrice.toLocaleString('pt-BR')} em ${neighborhood || 'Amparo'}, ${city}/${state}`,
         'imovel',
-        'Administrador Gallo'
+        'Administrador Miyashiro'
       );
     } catch (err) {
       console.error('Erro no cadastro do imóvel:', err);
@@ -690,7 +690,7 @@ export default function AdminNovoImovelPage() {
                 className="w-full bg-[#00873E] hover:bg-[#15803d] text-white py-4 rounded-xl font-medium text-xs transition shadow-md flex items-center justify-center gap-2 disabled:opacity-50 cursor-pointer"
               >
                 <PlusCircle className="w-4 h-4" />
-                <span>{submitting ? 'Salvando no Servidor e Catálogo...' : 'Publicar Imóvel no Portal Gallo'}</span>
+                <span>{submitting ? 'Salvando no Servidor e Catálogo...' : 'Publicar Imóvel no Portal Miyashiro'}</span>
               </button>
             </div>
           </form>

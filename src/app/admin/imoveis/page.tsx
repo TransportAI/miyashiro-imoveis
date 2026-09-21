@@ -96,7 +96,7 @@ export default function AdminImoveisPage() {
         `Status do Imóvel ${id.toUpperCase()} alterado`,
         `Novo status: ${newStatus.toUpperCase()} (Título: ${targetProp?.title})`,
         'imovel',
-        'Administrador Gallo'
+        'Administrador Miyashiro'
       );
     } catch (err) {
       console.error(err);
@@ -131,7 +131,7 @@ export default function AdminImoveisPage() {
         `Imóvel ${id.toUpperCase()} ${nextFeatured ? 'Adicionado aos' : 'Removido dos'} Destaques`,
         `Exibição no Topo da Página Inicial: ${nextFeatured ? 'SIM' : 'NÃO'}`,
         'imovel',
-        'Administrador Gallo'
+        'Administrador Miyashiro'
       );
     } catch (err) {
       console.error(err);
@@ -156,7 +156,7 @@ export default function AdminImoveisPage() {
           `Imóvel ${id.toUpperCase()} Removido`,
           `Exclusão definitiva de: ${target?.title}`,
           'imovel',
-          'Administrador Gallo'
+          'Administrador Miyashiro'
         );
       } catch (err) {}
     }

@@ -17,7 +17,7 @@ const INITIAL_LOGS: AuditLog[] = [
     title: 'Portal Imobiliário Inicializado',
     details: 'Instância da Miyashiro Imóveis (CRECI 155957F) conectada com sucesso ao Mini-CMS.',
     category: 'sistema',
-    user: 'Sistema Gallo',
+    user: 'Sistema Miyashiro',
     timestamp: new Date(1773660000000 - 3600000 * 24).toISOString(),
   },
   {
@@ -26,7 +26,7 @@ const INITIAL_LOGS: AuditLog[] = [
     title: 'Imóvel GAL-101 Registrado',
     details: 'Casa de Alto Padrão no Jardim Silvestre adicionada ao catálogo ativo.',
     category: 'imovel',
-    user: 'Corretor Gallo',
+    user: 'Corretor Miyashiro',
     timestamp: new Date(1773660000000 - 3600000 * 18).toISOString(),
   },
   {
@@ -51,9 +51,9 @@ export function getAuditLogs(): AuditLog[] {
     const parsed: AuditLog[] = JSON.parse(raw);
     const sanitized = parsed.map(log => ({
       ...log,
-      user: log.user.replace(/Primavera/gi, 'Gallo').replace(/Celeste/gi, 'Gallo'),
-      title: log.title.replace(/PRI-/gi, 'GAL-').replace(/CEL-/gi, 'GAL-').replace(/Primavera/gi, 'Gallo').replace(/Celeste/gi, 'Gallo'),
-      details: log.details.replace(/Primavera/gi, 'Gallo').replace(/Celeste/gi, 'Gallo').replace(/PRI-/gi, 'GAL-').replace(/CEL-/gi, 'GAL-')
+      user: log.user.replace(/Primavera|Celeste|Gallo/gi, 'Miyashiro'),
+      title: log.title.replace(/PRI-|CEL-|GAL-/gi, 'MIY-').replace(/Primavera|Celeste|Gallo/gi, 'Miyashiro'),
+      details: log.details.replace(/Primavera|Celeste|Gallo/gi, 'Miyashiro').replace(/PRI-|CEL-|GAL-/gi, 'MIY-')
     }));
     localStorage.setItem(STORAGE_KEY, JSON.stringify(sanitized));
     return sanitized;
@@ -67,7 +67,7 @@ export function logAuditEvent(
   title: string,
   details: string,
   category: AuditLog['category'],
-  user: string = 'Administrador Gallo'
+  user: string = 'Administrador Miyashiro'
 ): AuditLog {
   const newLog: AuditLog = {
     id: 'audit-' + Date.now() + '-' + Math.random().toString(36).substring(2, 7),

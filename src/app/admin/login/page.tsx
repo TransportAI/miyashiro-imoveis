@@ -237,7 +237,7 @@ export default function ModernLoginPage() {
           {/* Bottom Card Summary */}
           <div className="relative z-10 mt-2 text-center max-w-xs">
             <h3 className="text-sm font-urbanist font-semibold text-stone-900">
-              Gestão Integrada Gallo
+              Gestão Integrada Miyashiro
             </h3>
             <p className="text-[11px] font-mono text-stone-500 mt-1 leading-relaxed">
               Catálogo de Amparo, pipeline de leads qualificados e auditoria em tempo real.

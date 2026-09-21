@@ -391,7 +391,7 @@ export default function TriagemWidget() {
                 <div>
                   <div className="flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wider text-[#00873E]">
                     <Sparkles className="h-3.5 w-3.5" />
-                    <span>Assistente Gallo</span>
+                    <span>Assistente Miyashiro</span>
                   </div>
                   <h2 className="text-xl font-bold tracking-tight text-stone-900">
                     Como podemos ajudar?

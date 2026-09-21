@@ -344,7 +344,7 @@ export default function HomeInteractiveView({ initialProperties }: HomeInteracti
         <section id="contato" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <span className="text-xs font-mono uppercase tracking-widest text-[#00873E] font-semibold">
-              Diferenciais Gallo
+              Diferenciais Miyashiro
             </span>
             <h2 className="text-2xl sm:text-3xl font-urbanist font-medium text-stone-900 mt-1">
               Por que escolher a Miyashiro Imóveis?

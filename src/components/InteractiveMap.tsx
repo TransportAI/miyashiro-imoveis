@@ -135,7 +135,7 @@ export default function InteractiveMap({ properties, onOpenBoardingPass }: Inter
 
         {/* Region Labels */}
         <div className="absolute top-[35%] left-[44%] text-[11px] font-mono tracking-widest text-slate-500 font-bold uppercase pointer-events-none">
-          Bairro Ribeirão • Unidade Gallo
+          Bairro Ribeirão • Unidade Miyashiro
         </div>
         <div className="absolute top-[49%] left-[53%] text-[11px] font-mono tracking-widest text-slate-500 font-bold uppercase pointer-events-none">
           Centro Histórico • Amparo

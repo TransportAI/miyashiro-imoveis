@@ -107,7 +107,7 @@ export default function MortgageCalculator({ defaultPrice = 500000 }: { defaultP
   const formatBRL = (val: number) =>
     val.toLocaleString("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
 
-  // Mensagem qualificada para o WhatsApp do corretor Gallo
+  // Mensagem qualificada para o WhatsApp do Corretor Miyashiro
   const handleWhatsAppSimulation = () => {
     const selectedBankName = selectedBankId !== "base"
       ? settings.bankRates?.find((b) => b.id === selectedBankId)?.bankName || "Geral"
@@ -126,7 +126,7 @@ export default function MortgageCalculator({ defaultPrice = 500000 }: { defaultP
       `📌 *Comprometimento da Renda:* ${commitmentPercent.toFixed(1)}% (${
         isIncomeSufficient ? "Dentro da margem de 30%" : "Excede margem de 30%"
       })\n\n` +
-      `Gostaria de agendar uma análise de crédito imobiliário formal com um corretor da Gallo em Amparo!`
+      `Gostaria de agendar uma análise de crédito imobiliário formal com um corretor da Miyashiro em Amparo!`
     );
     window.open(`https://wa.me/5519993673949?text=${text}`, "_blank");
   };

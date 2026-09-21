@@ -31,7 +31,7 @@ const FEATURED_SLIDES: SlideItem[] = [
     price: "R$ 1.850.000",
     image: "/images/properties/casa_condominio_1.jpg",
     slug: "casa-alto-padrao-jardim-silvestre",
-    tag: "Exclusividade Gallo",
+    tag: "Exclusividade Miyashiro",
   },
   {
     id: "2",
@@ -115,7 +115,7 @@ export default function HeroCarousel({ properties: initialProperties }: HeroCaro
     price: formatCurrency(p.price),
     image: p.images[0] || "/images/properties/casa_condominio_1.jpg",
     slug: p.slug,
-    tag: p.featured ? "Destaque Gallo" : "Exclusividade",
+    tag: p.featured ? "Destaque Miyashiro" : "Exclusividade",
   }));
 
   if (slides.length === 0) {

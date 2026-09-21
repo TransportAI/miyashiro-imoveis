@@ -30,7 +30,7 @@ export async function POST(request: Request) {
             user: {
               id: authData.user?.id,
               email: authData.user?.email,
-              name: authData.user?.user_metadata?.nome || 'Administrador Gallo',
+              name: authData.user?.user_metadata?.nome || 'Administrador Miyashiro',
               role: authData.user?.user_metadata?.role || 'admin',
             },
           });

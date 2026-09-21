@@ -86,7 +86,7 @@ export function ArchitecturalScene() {
         color="#E4F0FA"
       />
 
-      {/* Luz de acento sutil em tom terracota refinado Gallo */}
+      {/* Luz de acento sutil em tom verde refinado Miyashiro */}
       <pointLight
         position={[0, -2, 6]}
         intensity={0.6}

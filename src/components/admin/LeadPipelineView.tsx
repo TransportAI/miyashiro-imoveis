@@ -1070,7 +1070,7 @@ export default function LeadPipelineView() {
                     Cadastrar Nova Oportunidade
                   </h3>
                   <p className="text-xs text-stone-500">
-                    Adicione um lead diretamente no funil de vendas da Gallo
+                    Adicione um lead diretamente no funil de vendas da Miyashiro
                   </p>
                 </div>
                 <button
